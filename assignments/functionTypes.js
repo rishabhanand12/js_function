@@ -42,12 +42,52 @@ convertToString(21); // "21"
  * @param {number} n
  * @return {number}
  */
+//Function Declaration
+function param(number) {
+  return number +1;
+}
+//Function Expression
+let param = function(number) {
+  return number +1;
+};
+
+//Arrow Function
+let param = (number) => number + 1;
+
+//Arrow Function with Curly bracket
+let param = (number) => {
+  return number + 1;
+};
+
+//Function Invocation
+param(2); // 3
+
 
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
+//Function Declaration
+function param(number) {
+  return number - 1;
+}
+//Function Expression
+let param = function(number) {
+  return number - 1;
+};
+
+//Arrow Function
+let param = (number) => number - 1;
+
+//Arrow Function with Curly bracket
+let param = (number) => {
+  return number - 1;
+};
+
+//Function Invocation
+param(2); // 1
+
 
 /**
  * Adds two numbers.
@@ -55,6 +95,26 @@ convertToString(21); // "21"
  * @param {number} y
  * @return {number} the sum
  */
+//Function Declaration
+function param(number1, number2) {
+  return number1 + number2;
+}
+//Function Expression
+let param = function(number1, number2) {
+  return number1 + number2;
+};
+
+//Arrow Function
+let param = (number1, number2) => number + number2;
+
+//Arrow Function with Curly bracket
+let param = (number1, number2) => {
+  return number1 + number2;
+};
+
+//Function Invocation
+param(2,1); // 3
+
 
 /**
  * Subtracts the second number from the first.
@@ -62,6 +122,28 @@ convertToString(21); // "21"
  * @param {number} y
  * @return {number} the difference
  */
+//Function Declaration
+function param(number1, number2) {
+  return number1 - number2;
+}
+//Function Expression
+let param = function(number1, number2) {
+  return number1 - number2;
+};
+
+//Arrow Function
+let param = (number1, number2) => number - number2;
+
+//Arrow Function with Curly bracket
+let param = (number1, number2) => {
+  return number1 - number2;
+};
+
+//Function Invocation
+param(2,1); // 1
+
+
+
 
 /**
  * Multiplies two numbers.
@@ -70,6 +152,29 @@ convertToString(21); // "21"
  * @return {number} the product
  */
 
+ //Function Declaration
+function param(number1, number2) {
+  return number1 * number2;
+}
+//Function Expression
+let param = function(number1, number2) {
+  return number1 * number2;
+};
+
+//Arrow Function
+let param = (number1, number2) => number * number2;
+
+//Arrow Function with Curly bracket
+let param = (number1, number2) => {
+  return number1 * number2;
+};
+
+//Function Invocation
+param(2,1); // 2
+
+
+
+
 /**
  * Divides the first number by the second.
  * @param {number} x
@@ -77,11 +182,54 @@ convertToString(21); // "21"
  * @return {number} the quotient
  */
 
+//Function Declaration
+function param(number1, number2) {
+  return number1 / number2;
+}
+//Function Expression
+let param = function(number1, number2) {
+  return number1 / number2;
+};
+
+//Arrow Function
+let param = (number1, number2) => number / number2;
+
+//Arrow Function with Curly bracket
+let param = (number1, number2) => {
+  return number1 / number2;
+};
+
+//Function Invocation
+param(2,1); // 2
+
+
+
 /**
  * Multiplies a number by itself.
  * @param {number} x, number to be squared
  * @return {number} squared
  */
+//Function declaration
+function param(number) {
+  return number**2;
+}
+
+//Function Expression
+let param = function(number) {
+  return number**2;
+};
+
+//Arrow functions
+let param = (number) => number**2;
+
+//Arrow functions with curly brackets
+let Param = (number) => {
+  return number**2;
+};
+
+//Function Invocation
+param(2); // 4
+
 
 /**
  * Performs a mathematical operation on two numbers.
@@ -92,12 +240,106 @@ convertToString(21); // "21"
  * @return {number} the result
  */
 
+//Function Declaration
+function param(operator, x, y) {
+  switch(operator) {
+   case "+":
+   return x + y;
+   break;   
+
+   case "-":
+   return number1 - number2;
+   break;   
+
+   case "*":
+   return number1 * number2;
+   break;   
+
+   case "/":
+   return number1 / number2;
+   break;   
+  }
+  
+}
+//Function Expression
+let param = function(operator, number1, number2) {
+  switch(operator) {
+    case "+":
+    return number1 + number2;
+    break;   
+ 
+    case "-":
+    return number1 - number2;
+    break;   
+ 
+    case "*":
+    return number1 * number2;
+    break;   
+ 
+    case "/":
+    return number1 / number2;
+    break;   
+   }
+};
+
+
+
+//Arrow Function with Curly bracket
+let param = (operator, number1, number2) => {
+  switch(operator) {
+    case "+":
+    return number1 + number2;
+    break;   
+ 
+    case "-":
+    return number1 - number2;
+    break;   
+ 
+    case "*":
+    return number1 * number2;
+    break;   
+ 
+    case "/":
+    return number1 / number2;
+    break;   
+   }
+};
+
+//Function Invocation
+param("+", 2, 1); // 3
+
+
 /**
  * Returns true if `a` is greater than `b`.
  * @param {number} a
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
  */
+//Function declaration
+function param(a, b) {
+  if(a > b) {
+    return true;
+  }
+}
+
+//Function expression
+let param = function(a, b) {
+  if(a > b) {
+    return true;
+  }
+};
+//Arrow function 
+let param = (a, b) => (a > b)? true:false;
+
+//Arrow Function with curly brackets
+let param = (a, b) => {
+  if(a > b) {
+    return true;
+  }
+};
+
+//Function invocation
+param(1,2); // false
 
 /**
  * Returns true if `a` is less than `b`.
@@ -105,6 +347,33 @@ convertToString(21); // "21"
  * @param {number} b
  * @return {boolean} `a` is smaller than `b`
  */
+//Function declaration
+function param(a, b) {
+  if(a < b) {
+    return true;
+  }
+}
+
+//Function expression
+let param = function(a, b) {
+  if(a < b) {
+    return true;
+  }
+};
+//Arrow function 
+let param = (a, b) => (a < b)? true:false;
+
+//Arrow Function with curly brackets
+let param = (a, b) => {
+  if(a < b) {
+    return true;
+  }
+};
+
+//Function invocation
+param(1,2); // true
+
+
 
 /**
  * Returns true if `a` and `b` are equal.
@@ -113,6 +382,33 @@ convertToString(21); // "21"
  * @return {boolean} the numbers are equal
  */
 
+ //Function declaration
+function param(a, b) {
+  if(a == b) {
+    return true;
+  }
+}
+
+//Function expression
+let param = function(a, b) {
+  if(a == b) {
+    return true;
+  }
+};
+//Arrow function 
+let param = (a, b) => (a == b)? true:false;
+
+//Arrow Function with curly brackets
+let param = (a, b) => {
+  if(a == b) {
+    return true;
+  }
+};
+
+//Function invocation
+param(1,2); // false
+
+
 /**
  * Returns the smallest value of two numbers.
  * @param {number} x
@@ -120,24 +416,156 @@ convertToString(21); // "21"
  * @return {number} the smallest number
  */
 
+ //Function declaration
+function param(a, b) {
+  if(a > b) {
+    return b;
+  } else {
+    return a;
+  }
+}
+
+//Function expression
+let param = function(a, b) {
+  if(a > b) {
+    return b;
+  } else {
+    return a;
+  }
+};
+//Arrow function 
+let param = (a, b) => (a > b)? b: a;
+
+//Arrow Function with curly brackets
+let param = (a, b) => {
+  if(a > b) {
+    return b;
+  } else {
+    return a;
+  }
+};
+
+//Function invocation
+param(1,2); // 1
+
+
 /**
  * Returns the largest value of two numbers.
  * @param {number} x
  * @param {number} y
  * @return {number} the largest number
  */
+ //Function declaration
+ function param(a, b) {
+  if(a < b) {
+    return b;
+  } else {
+    return a;
+  }
+}
+
+//Function expression
+let param = function(a, b) {
+  if(a < b) {
+    return b;
+  } else {
+    return a;
+  }
+};
+//Arrow function 
+let param = (a, b) => (a < b)? b: a;
+
+//Arrow Function with curly brackets
+let param = (a, b) => {
+  if(a < b) {
+    return b;
+  } else {
+    return a;
+  }
+};
+
+//Function invocation
+param(1,2); // 2
+
+
 
 /**
  * Returns true if `n` is even.
  * @param {number} n
  * @return {boolean} the number is even
  */
+//Function declaration
+function even(n) {
+  if(n%2==0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+//Function expression
+let even = function(n) {
+  if(n%2==0) {
+    return true;
+  } else {
+    false;
+  }
+};
+
+//Arrow function
+let even = (n) => (n%2==0)? true:false;
+
+//Arrow function with curly brackets
+let even = (n) => {
+  if(n%2==0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+//Function invocation 
+even(4); // true
+
 
 /**
  * Returns true if `n` is odd.
  * @param {number} n
  * @return {boolean} the number is odd
  */
+
+ //Function declaration
+function odd(n) {
+  if(n%2!=0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+//Function expression
+let odd = function(n) {
+  if(n%2!=0) {
+    return true;
+  } else {
+    false;
+  }
+};
+
+//Arrow function
+let even = (n) => (n%2!=0)? true:false;
+
+//Arrow function with curly brackets
+let odd = (n) => {
+  if(n%2!=0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+//Function invocation 
+odd(4); // false
 
 /**
  * Returns a letter grade.
@@ -150,6 +578,77 @@ convertToString(21); // "21"
  * @param {number} total maximum possible score
  * @return {string} the score represented as a letter grade
  */
+//Function declaration
+function grade (score, total) {
+  var grade = (score/total)*100;
+  switch(true)
+  {
+    case(grade<= 100 && grade>= 90):
+    return "A";
+    break;
+    case(grade<= 89 && grade>= 80):
+    return "B";
+    break;
+    case(grade<= 79 && grade>= 70):
+    return "C";
+    break;
+    case(grade<= 69 && grade>= 60):
+    return "D";
+    break;
+    case(grade<= 59 && grade>= 0):
+    return "F";
+    break;
+  }
+}
+
+//Function expression
+let grade = function(score, total) {
+  var grade = (score/total)*100;
+  switch(true)
+  {
+    case(grade<= 100 && grade>= 90):
+    return "A";
+    break;
+    case(grade<= 89 && grade>= 80):
+    return "B";
+    break;
+    case(grade<= 79 && grade>= 70):
+    return "C";
+    break;
+    case(grade<= 69 && grade>= 60):
+    return "D";
+    break;
+    case(grade<= 59 && grade>= 0):
+    return "F";
+    break;
+  }
+};
+
+//Arrow function
+let grade = (score, total) => {
+  var grade = (score/total)*100;
+  switch(true)
+  {
+    case(grade<= 100 && grade>= 90):
+    return "A";
+    break;
+    case(grade<= 89 && grade>= 80):
+    return "B";
+    break;
+    case(grade<= 79 && grade>= 70):
+    return "C";
+    break;
+    case(grade<= 69 && grade>= 60):
+    return "D";
+    break;
+    case(grade<= 59 && grade>= 0):
+    return "F";
+    break;
+  }
+};
+
+//Function invocation
+grade(90, 100); // A
 
 /**
  * Joins two strings with a space.
@@ -157,3 +656,23 @@ convertToString(21); // "21"
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
+//Function decleration 
+function join(string1, string2) {
+  return string + " " + string2;
+}
+
+//Function expression
+let join = function(string1, string2) {
+  return string + " " + string2;
+};
+
+//Arrow Function
+let join = (string1, string2) => string + " " + string2;
+
+//Arrow Function with curly brackets
+let join = (string1, string2) => {
+  return string + " " + string2;
+};
+
+//Function invocation
+join("Hello", "World"); //Hello World
