@@ -103,7 +103,6 @@ let pow = (x,n) => x**n;
 6. 🎖Write a program that asks the user for a number n and gives them the possibility to choose between computing the sum and computing the product of 1,…,n. Return the result accordingly.
 
 ```js
-
 var x = +prompt("Enter a number");
 var y= prompt("Enter your choice of operation");
 function calculate(x, operator) {
